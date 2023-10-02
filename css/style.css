@@ -1,0 +1,111 @@
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*
+DEBUG
+*/
+
+.container {
+    height: 45px;
+}
+
+.link {
+    width: 750px;
+    border: 1px dashed black;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.logo {
+    width: 250px;
+    border: 1px dashed black;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.login {
+    width: 250px;
+    border: 1px dashed black;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+header .container2 {
+    height: 550px;
+    background-color: blue;
+}
+
+.box2 {
+    width: 1000px;
+    height: 435px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
+}
+
+header .contenitore {
+    height: 550px;
+    background-color: #00008B;
+    width: 100%;
+
+}
+
+
+/*
+COMMON
+*/
+
+
+
+
+
+/*
+HEADER
+*/
+.container {
+    height: 85px;
+    background-color: #ADD8E6;
+    padding: 20px;
+
+}
+
+header .container .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    margin: auto;
+    flex-shrink: 0;
+    background-color: #DAA520;
+}
+
+header .contenitore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {}
+
+
+
+/*
+MAIN
+*/
+
+
+/*
+FOOTER
+*/
