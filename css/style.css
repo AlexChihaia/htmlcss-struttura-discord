@@ -19,7 +19,7 @@ DEBUG
 }
 
 .link {
-    width: 750px;
+    width: 60%;
     border: 1px dashed black;
     height: 45px;
     text-align: center;
@@ -27,7 +27,7 @@ DEBUG
 }
 
 .logo {
-    width: 250px;
+    width: 20%;
     border: 1px dashed black;
     height: 45px;
     text-align: center;
@@ -35,16 +35,11 @@ DEBUG
 }
 
 .login {
-    width: 250px;
+    width: 20%;
     border: 1px dashed black;
     height: 45px;
     text-align: center;
     line-height: 45px;
-}
-
-header .container2 {
-    height: 550px;
-    background-color: blue;
 }
 
 .box2 {
@@ -54,16 +49,12 @@ header .container2 {
     border: 1px dashed black;
 }
 
-header .contenitore {
+header .jumbotron {
     height: 550px;
     background-color: #00008B;
     width: 100%;
 }
 
-.container2 {
-    height: 625px;
-    background-color: white;
-}
 
 .box3 {
     width: 60%;
@@ -116,10 +107,6 @@ header .contenitore {
 /*
 COMMON
 */
-.container2 {
-    display: flex;
-}
-
 
 section {
     width: 100%;
@@ -142,14 +129,14 @@ section .contenitore {
 /*
 HEADER
 */
-.container {
+.topbar {
     height: 85px;
     background-color: #ADD8E6;
     padding: 20px;
 
 }
 
-header .container .box1 {
+header .topbar .box1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,11 +146,15 @@ header .container .box1 {
     background-color: #DAA520;
 }
 
-header .contenitore {
+header .jumbotron {
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+header {
+    border-bottom: 4px solid #ADD8E6;
 }
 
 
